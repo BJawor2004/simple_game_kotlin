@@ -1,12 +1,11 @@
 import kotlin.random.Random
 
-fun printDifficulty(): Void?
+fun printDifficulty(): Unit
 {
     println("1. Easy")
     println("2. Normal")
     println("3. Hard")
     println("4. Hardcore")
-    return null
 }
 
 fun easy(): Unit
